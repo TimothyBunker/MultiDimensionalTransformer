@@ -18,16 +18,17 @@ from data_utils import (
 
 # --- Configuration & Hyperparameters ---
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-MAX_SEQ_LEN = 128
+MAX_SEQ_LEN = 512
 MAX_WORD_LEN = 30
-MAX_WORDS = 30
+MAX_WORDS = 256
 D_MODEL = 128
 NHEAD = 4
 NUM_ENCODER_LAYERS = 2
 DIM_FEEDFORWARD = 512
-DROPOUT = 0.2
-EPOCHS = 50 # Total desired epochs
-LEARNING_RATE = 0.0005
+DROPOUT = 0.26
+EPOCHS = 30
+# Total desired epochs
+LEARNING_RATE = 0.001
 BATCH_SIZE = 16
 CLIP_GRAD = 1.0
 # --- Use a clear name for the final fair model ---

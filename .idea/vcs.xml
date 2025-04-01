@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/UD_English-ATIS" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/UD_English-ESL" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/UD_English-EWT" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/UD_English-GUM" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/UD_English-LINES" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/UD_English-PARTUT" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/UD_English-PRONOUNS" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/UD_English-REDDIT" vcs="Git" />
+  </component>
+</project>
