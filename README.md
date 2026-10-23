@@ -18,9 +18,11 @@ The core idea is to leverage not only the character identities but also multiple
 
 *   `model.py`: Contains the PyTorch implementation of the `MultiLevelPosTransformer` model and the `PositionalEncoding` module.
 *   `download_ud.py`: A utility script to download specified Universal Dependencies treebanks (primarily English ones by default), extract sentences, and save them into `train.txt`, `valid.txt`, and `test.txt` files.
-*   **(Requires Implementation)** `preprocess.py` / `dataset.py`: Scripts/modules needed to convert the raw sentences from `.txt` files into the tensor formats required by `model.py` (character indices, positional indices, padding masks).
-*   **(Requires Implementation)** `train.py`: A script to handle model training, including data loading, optimizer setup, loss calculation, and evaluation loops.
-*   **(Requires Implementation)** `evaluate.py` / `predict.py`: Scripts for evaluating a trained model or making predictions on new data.
+*   `data_utils.py`: Data preparation and tensor inputs for the character-level model.
+*   `train.py`: Model training and evaluation loop.
+*   `evaluate.py` / `predict.py`: Evaluation and prediction entry points.
+
+These files are present; their existence does not establish tagging quality or readiness for a particular dataset.
 
 ## Model Architecture (`model.py`)
 
@@ -52,3 +54,4 @@ The `download_ud.py` script automates fetching data:
 
 ```bash
 pip install torch # Or install via PyTorch website instructions: https://pytorch.org/
+```
